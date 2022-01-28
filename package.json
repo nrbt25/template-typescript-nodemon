@@ -1,0 +1,16 @@
+{
+  "name": "template-typescript-nodemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "npx nodemon --watch ./src/**/* --ext ts --exec \"npx ts-node ./src/index.ts\""
+  },
+  "author": "https://github.com/olas7/",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
